@@ -1,0 +1,40 @@
+
+.logo_img
+{
+	width: 200px;
+}
+.logo_h2
+{
+
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .logo_h2 {font-size:0.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .logo_h2 {font-size:2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .logo_h2 {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .logo_h2 {font-size:2rem;} /*1rem = 16px*/    
+}
+.pt-100
+{
+	padding-top: 100px;
+}
+.pt-70
+{
+	padding-top: 70px;
+}
+.pb-20
+{
+	padding-bottom: 20px;
+}
